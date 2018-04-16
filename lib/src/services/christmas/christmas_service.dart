@@ -18,5 +18,5 @@ class ChristmasService extends BooleanMixin {
 
   @visibleForTesting
   bool isChristmas(DateTime date) =>
-      date.month == DateTime.december && date.day == 25;
+      date.month == DateTime.DECEMBER && date.day == 25;
 }
