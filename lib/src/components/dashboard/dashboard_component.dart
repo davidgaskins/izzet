@@ -5,6 +5,7 @@ import 'package:izzet/src/services/boolean_mixin.dart';
 import 'package:izzet/src/services/christmas/christmas_service.dart';
 import 'package:izzet/src/services/christmas/christmas_service_provider.dart';
 
+/// A component to render any number of statuses.
 @Component(
   selector: 'dashboard',
   styleUrls: const ['dashboard_component.css'],
