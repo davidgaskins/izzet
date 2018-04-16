@@ -1,10 +1,26 @@
 .status-container {
-    height: 120px;
-    width: 120px;
-    background-color: #0e4db2;
+    height: 200px;
+    width: 200px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.child {
-    align-self: center;
+
+.name {
+    font-family: "Open Sans";
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: #FFFFFF;
+}
+
+.true {
+   background-color: #0e4db2;
+}
+
+.false {
+   background-color: #e0003b;
 }

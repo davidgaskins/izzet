@@ -2,7 +2,7 @@ import 'package:angular/angular.dart';
 
 import '../christmas_service.dart';
 
-/// A fake service for providing a status component
+/// A fake service for providing a status component.
 @Injectable()
 class FakeChristmasService extends ChristmasService {
 

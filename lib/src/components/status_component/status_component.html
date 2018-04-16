@@ -1,4 +1,3 @@
-<div class="status-container">
-    <div class="child">Is it {{title}}?</div>
-    <div class="child">{{status}}</div>
+<div class="status-container" [ngClass] = "statusClass">
+    <div class="name child">It is <b *ngIf="!status">not</b> {{title}}<span *ngIf="status">!</span></div>
 </div>
