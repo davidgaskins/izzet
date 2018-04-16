@@ -1,0 +1,10 @@
+.status-container {
+    height: 120px;
+    width: 120px;
+    background-color: #0e4db2;
+    display: flex;
+    flex-direction: column;
+}
+.child {
+    align-self: center;
+}
